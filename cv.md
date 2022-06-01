@@ -1,5 +1,5 @@
 # ***Albina Mkhitaryan***
-===================================
+==================================
 ## _Contact Details_ 
 * Telegram - @leaveliar
 * Tlph - 8(989)610-97-04
