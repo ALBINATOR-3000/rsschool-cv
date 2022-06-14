@@ -1,1 +1,7 @@
-TO DO
+.github {
+    padding: 30px;
+    color: black;
+    background-color: olivedrab;
+    width: 100%;
+    max-width: 90px;
+}
