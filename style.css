@@ -1,7 +1,66 @@
-.github {
-    padding: 30px;
-    color: black;
-    background-color: olivedrab;
-    width: 100%;
-    max-width: 90px;
+* {
+    box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
+
+ body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #553617;
+ }
+ .header {
+    background-color: #774a7166;
+ }
+ .nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+    color: #553617;
+ }
+ h1 {
+    color: #553617;
+ }
+ .footer {
+    background-color: #774a7166;
+ }
+
+ .year {
+    font-size: 40px;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    color: black;
+ }
+ .github {
+    font-size: 40px;
+    position: relative;
+    left: 140px;
+    top: 50px;
+ }
+ .main {
+    background-color: #774a714f;
+ }
+ .photo {
+    float: right;
+    padding-right: 200px;
+ }
+ nav {
+    display: block;
+ }
+ .containet {
+    display: flex;
+    justify-content: center;
+ }

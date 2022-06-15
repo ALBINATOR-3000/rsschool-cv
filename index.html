@@ -2,49 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE+edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="vievport" content="width=device-width, initial-scale=1.0">
         <title>CV</title>
-        <link rel="stylesheet" href="cv.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <h1>Albina Mkhitaryan</h1>
             </div>
+            <div class="photo">
+                <img src="IMG_2435.jpg" 
+                width="290" height="340" alt="Albina Mkhitaryan">
+            </div>
             <nav class="navigation">
                 <div class="container">
                     <ul class="menu">
                         <li>
-                            <a href="#contact">Contact Details</a>
+                            <a href="#contact" class="nav-link">Contact Details</a>
                         </li>
                         <li>
-                            <a href="#abount">Abount Me</a>
+                            <a href="#abount" class="nav-link">Abount Me</a>
                         </li>
                         <li>
-                            <a href="#skills">Skills</a>
+                            <a href="#skills" class="nav-link">Skills</a>
                         </li>
                         <li>
-                            <a href="#example">Cod Example</a>
+                            <a href="#example" class="nav-link">Cod Example</a>
                         </li>
                         <li>
-                            <a href="#experience">Work Experience</a>
+                            <a href="#experience" class="nav-link">Work Experience</a>
                         </li>
                         <li>
-                            <a href="#education">Educatoin</a>
+                            <a href="#education" class="nav-link">Educatoin</a>
                         </li>
                         <li>
-                            <a href="#language">Language Educatoin</a>
+                            <a href="#language" class="nav-link">Language Educatoin</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
         <main class="main">
-            <div class="photo">
-                <img src="https://img5.goodfon.ru/wallpaper/nbig/f/1e/kotenok-sidit-pushistyi-trava.jpg" 
-                width="300" height="300" alt="Albina Mkhitaryan">
-            </div>
+            <section class="section" id="contact">
             <ul>
                 <li>
                     <h2>Contact Details:</h2>
@@ -53,6 +54,8 @@
                     <li>Tlph - 8(989)610-97-04</li>
                    </ul>
                 </li>
+            </section>
+            <section class="section" id="abount">
                 <li>
                     <h2>Abount Me:</h2>
                     <p>Hello everyone, my name is Albina.
@@ -61,7 +64,9 @@
                          she worked in sales, but now she decided to try herself in programming.
                          Wish me good luck!</p>
                 </li>
+            </section>
                 <li>
+                    <section class="section" id="skills">
                     <h2>Skills:</h2>
                     <ul>
                         <li>
@@ -78,6 +83,8 @@
                         </li>
                     </ul>
                 </li>
+            </section>
+            <section class="section" id="example">
                 <li>
                     <h2>Cod Example:</h2>
                     func makeTranslator(stroka: String) -> (String) -> (String) {
@@ -85,22 +92,29 @@
                         return { (name: String) -> String in return (stroka + " " + name) }
                     }
                 </li>
+            </section>
+            <section class="section" id="experience">
                 <li>
                     <h2>Work Experience:</h2>
                     I dont have programming experience
                 </li>
+            </section>
+            <section class="section" id="education">
                 <li>
                     <h2>Education:</h2>
                     RSUE(RINH) - Rostov State University of Economics: 
                     Faculty of Linguistics and Journalism
                 </li>
+            </section>
+            <section class="section" id="language">
                 <li>
                     <h2>Language Education:</h2>
                     A-1 (A2 in progress)
                 </li>
+            </section>
             </ul>
         </main>
-        <footer>
+        <footer class="footer">
             <div class="year">
                 <p>2022</p>
             </div>
